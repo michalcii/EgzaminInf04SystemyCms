@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2E7CB8"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewPytanie"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zad1" />
+
+    <TextView
+        android:id="@+id/textViewTresc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Które to schronisko?"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <RadioButton
+            android:id="@+id/radioA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="14sp"
+            android:text="Na Rysiance." />
+
+        <RadioButton
+            android:id="@+id/radioB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="14sp"
+            android:text="Na Wielkiej Raczy." />
+
+        <RadioButton
+            android:id="@+id/radioC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="14sp"
+            android:text="Na Wielkiej Rycerzowej." />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonDalej"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#1A5C8A"
+        android:text="DALEJ"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
